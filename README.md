@@ -1,7 +1,7 @@
 # assignment-day-39
 TDD using jest for back-end unit testing
 
-# first thing first you have to install some dependencies below
+# #firstthingfirst you have to install some dependencies below
 ```
 npm install body-parser
 npm install dotenv
