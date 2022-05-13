@@ -10,7 +10,7 @@ npm install jest
 npm install node-mocks-http
 ```
 
-# to run this test
+# to run these tests
 you can start testing by using command below after start the server first.
 ```
 npm run test
