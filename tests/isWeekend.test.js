@@ -7,6 +7,7 @@ test.each([
     ["05-13-2022", false, null, 200],
     ["05-14-2022", true, null, 200],
     ["20-20-2000", null, 'invalid date', 500],
+    ["2-2-2000", null, 'invalid date format should be mm-dd-yyyy or yyyy-mm-dd', 500],
 ])('date format : "mm-dd-yyyy" or "yyyy-mm-dd" and input %s should return data: ' + '%s, error: ' + '%s, status code: %d', async (input, expectedData, errorMessage, statusCode) => {
     const request = httpMocks.createRequest({
         method: 'GET',
