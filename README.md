@@ -15,6 +15,7 @@ npm install node-mocks-http
 you can start testing by using command below after start the server first.
 ```
 npm run test
+npm run test -- --coverage
 ```
 
 ## thank you
