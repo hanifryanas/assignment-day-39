@@ -7,7 +7,6 @@ class daysServiceModel {
             }
             else {
             const day = new Date(date).getDay();
-            console.log(day);
             if(day%1 !== 0) {
                 console.log('day must be a number');
                 reject('invalid date');
@@ -21,8 +20,6 @@ class daysServiceModel {
 
     static isLeapYear(year) {
         return new Promise((resolve, reject) => {
-            console.log(year);
-            console.log(parseInt(year));
             if(parseInt(year)%1 !== 0) {
                 reject('year must be a number');
             }
